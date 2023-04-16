@@ -1,0 +1,13 @@
+crlf    text
+-crlf   -text
+crlf=input  eol=lf
+
+# End of line conversion
+*   text=auto
+*.txt   text
+*.sh    text eol=lf
+*.make  text eol=lf
+*.jpg   -text
+*.png   -text
+*.out   -text
+*.pdf   -text
